@@ -25,6 +25,10 @@ button{
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
+iframe .color-palette{
+  margin-left: -20px;
+}
+
 .top_nav{
     font-family: 'Zen Kurenaido', sans-serif;
     width: 87%;
