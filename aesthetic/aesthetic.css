@@ -27,12 +27,12 @@ button{
 
 .top_nav{
     font-family: 'Zen Kurenaido', sans-serif;
-    width: 100%;
+    width: 87%;
     overflow: hidden;
     position: relative;
-    top: 0px;
+    top: -10px;
     margin-left: 10%;
-    background-color: #b6d5de;
+    background-color:  #ECC5C5;
     padding: 20px;
 }
 
@@ -60,7 +60,7 @@ button{
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #ECC5C5;
+    background-color:#b6d5de;
     padding-top: 50px;
     position: fixed;
     top: 0px;
@@ -82,6 +82,7 @@ button{
   }
   
 .aesthetics-header{
+    top: -10px;
     padding: 150px;
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77955473-bea2-4ce3-a179-cfcdb603f80f/d7ufk2x-e8b9e299-2864-471d-9c3f-be551880d470.jpg/v1/fill/w_1024,h_569,q_75,strp/nests_by_projectosxar_d7ufk2x-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTY5IiwicGF0aCI6IlwvZlwvNzc5NTU0NzMtYmVhMi00Y2UzLWExNzktY2ZjZGI2MDNmODBmXC9kN3VmazJ4LWU4YjllMjk5LTI4NjQtNDcxZC05YzNmLWJlNTUxODgwZDQ3MC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.v51GLpJNNc_ZSopTC7xBU770bLRkmaysk92z1-rAp90'); /* images need to be URL */
     background-size: 100%;
@@ -103,7 +104,6 @@ button{
 .active, .collapsible:hover {
     color: #D04623FF;
 }
-
 
 .content {
     padding: 18px;
