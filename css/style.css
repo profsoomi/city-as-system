@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #70bf44;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 20;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+nav ul li{
+    margin: 10px;
+    list-style: none;
+    font-weight:300;
+    font-size: 1.5rem;
+}
+nav ul li:first-child{
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 2rem;
+}
+nav ul li:first-child a:link, nav ul li:first-child a:visited{
+    color: #eaeea4;
+}
+nav ul li a:link, nav ul li a:visited{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:active{
+    color: #323280;
+}
+
+main{
+    position: relative;
+    min-height: 40vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 200px 20px;
+    top: 20vh;
+}
+main a:link, main a:visited{
+    color: #323280;
+    text-decoration: none;
+}
+main a:hover, main a:active{
+    color: #70bf44;
+}
+
+footer{
+    background-color: #70bf44;
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+}
+#foot-list{
+    display: grid;
+    grid: 1fr / 1fr 1fr 1fr;
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    list-style-type: none;
+}
