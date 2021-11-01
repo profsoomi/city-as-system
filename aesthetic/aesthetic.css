@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+html{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+h1{
+    padding-left: 45%;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 18px;
+}
+
+button{
+    background: white;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.top_nav{
+    font-family: 'Zen Kurenaido', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    margin-left: 10%;
+    background-color: #b6d5de;
+    padding: 20px;
+}
+
+.top_nav ul{
+    list-style-type: none;
+    margin:0;
+    margin-left:30%;
+    padding:0;
+}
+
+.top_nav li{
+    float: left;
+}
+
+.top_nav li a{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.left_nav{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ECC5C5;
+    padding-top: 50px;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    overflow: auto;
+    z-index: 1001;
+}
+
+.left_nav a {
+    display: block;
+    color: black;
+    margin-top: -25px;
+    padding: 30px;
+    text-decoration: none;
+  }
+  
+  .left_nav a:hover:not(.active) {
+    color: #555;
+  }
+  
+.aesthetics-header{
+    padding: 150px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77955473-bea2-4ce3-a179-cfcdb603f80f/d7ufk2x-e8b9e299-2864-471d-9c3f-be551880d470.jpg/v1/fill/w_1024,h_569,q_75,strp/nests_by_projectosxar_d7ufk2x-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTY5IiwicGF0aCI6IlwvZlwvNzc5NTU0NzMtYmVhMi00Y2UzLWExNzktY2ZjZGI2MDNmODBmXC9kN3VmazJ4LWU4YjllMjk5LTI4NjQtNDcxZC05YzNmLWJlNTUxODgwZDQ3MC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.v51GLpJNNc_ZSopTC7xBU770bLRkmaysk92z1-rAp90'); /* images need to be URL */
+    background-size: 100%;
+}
+
+
+.collapsible{
+    cursor:pointer;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    padding-left: 20%;
+}
+
+.active, .collapsible:hover {
+    color: #D04623FF;
+}
+
+
+.content {
+    padding: 18px;
+    padding-left: 20%;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .mushroom-fashion-1 {
+    cursor: move;
+  }
+
+  .mushroom-fashion-2{
+    cursor: move;
+  }
+
+  .content h2{
+    font-size: larger;
+    font-weight: lighter;
+    text-decoration: underline;
+  }
+
+.arc-rules{
+    list-style-type: square;
+    line-height:2;
+}
+
+  #3d iframe {
+    display: block;
+    margin: 0 auto;
+    
+}
+  
+.hideme
+{
+    opacity:0;
+}
+
+.aesthetics-logo{
+    cursor: move;
+}
+
+.gradient-container {
+    height: 0;
+    width: 0;
+  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    bottom: 45%;
+    margin-left: -55px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .color-palette {
+    cursor: move;
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+  }
+
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    margin-left: 25px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+
+
+
