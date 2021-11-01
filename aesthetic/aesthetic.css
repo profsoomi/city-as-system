@@ -199,7 +199,7 @@ iframe .color-palette{
     position: absolute;
     z-index: 1;
     bottom: 50%;
-    margin-left: 25px;
+    margin-right: -55px;
   }
   
   /* Show the tooltip text when you mouse over the tooltip container */
