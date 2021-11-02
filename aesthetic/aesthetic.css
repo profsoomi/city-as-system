@@ -120,10 +120,18 @@ iframe .color-palette{
 
   .mushroom-fashion-1 {
     cursor: move;
+    background: #FDB;
+    background: linear-gradient(to bottom, #8CC0A7 0%,#F38D8C 100%);
   }
 
   .mushroom-fashion-2{
     cursor: move;
+    background: #2c4a87;
+    background: linear-gradient(to bottom, #8CC0A7 0%,#F38D8C 100%);
+  }
+
+  .mushroom-fashion-containers{
+    margin-top: 10%;
   }
 
   .content h2{
