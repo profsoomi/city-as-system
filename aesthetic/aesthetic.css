@@ -160,7 +160,7 @@ iframe .color-palette{
 .clothing-1{
   position: absolute;
   left: 260px;
-  top: 1500px;
+  top: 1800px;
   width: 350px;
   height: 650px;
 }
@@ -168,7 +168,7 @@ iframe .color-palette{
 .clothing-2{
   position: absolute;
   left: 200px;
-  top: 2000px;
+  top: 2100px;
   width: 400px;
   height: 600px;
 }
@@ -176,7 +176,7 @@ iframe .color-palette{
 .clothing-3{
   position: absolute;
   right: 10px;
-  top: 1500px;
+  top: 1800px;
   width: 400px;
   height: 600px;
 }
@@ -184,7 +184,7 @@ iframe .color-palette{
 .clothing-4{
   position: absolute;
   right: 10px;
-  top: 2000px;
+  top: 2100px;
   width: 350px;
   height: 550px;
 }
@@ -249,6 +249,7 @@ iframe .color-palette{
   }
 
   .map_holder {
+    margin-left: 25%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
