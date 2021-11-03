@@ -26,7 +26,7 @@ button{
 }
 
 iframe .color-palette{
-  margin-left: -20px;
+  margin-left: -30%;
 }
 
 .top_nav{
@@ -120,10 +120,18 @@ iframe .color-palette{
 
   .mushroom-fashion-1 {
     cursor: move;
+    background: #FDB;
+    background: linear-gradient(to bottom, #8CC0A7 0%,#F38D8C 100%);
   }
 
   .mushroom-fashion-2{
     cursor: move;
+    background: #2c4a87;
+    background: linear-gradient(to bottom, #8CC0A7 0%,#F38D8C 100%);
+  }
+
+  .mushroom-fashion-containers{
+    margin-top: 10%;
   }
 
   .content h2{
@@ -194,7 +202,7 @@ iframe .color-palette{
     position: absolute;
     z-index: 1;
     bottom: 50%;
-    margin-left: 25px;
+    margin-right: -55px;
   }
   
   /* Show the tooltip text when you mouse over the tooltip container */
