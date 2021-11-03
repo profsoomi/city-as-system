@@ -118,20 +118,22 @@ iframe .color-palette{
     text-decoration: none;
   }
 
+  .design-system-container{
+    padding-left: 20%;
+  }
+
+  .mushroom-fashion-container{
+    margin-left: 45%;
+  }
+
   .mushroom-fashion-1 {
     cursor: move;
-    background: #FDB;
-    background: linear-gradient(to bottom, #8CC0A7 0%,#F38D8C 100%);
+    margin-top: -10%;
   }
 
   .mushroom-fashion-2{
     cursor: move;
-    background: #2c4a87;
-    background: linear-gradient(to bottom, #8CC0A7 0%,#F38D8C 100%);
-  }
-
-  .mushroom-fashion-containers{
-    margin-top: 10%;
+    margin-top: -20%;
   }
 
   .content h2{
@@ -158,6 +160,38 @@ iframe .color-palette{
 
 .aesthetics-logo{
     cursor: move;
+}
+
+.clothing-1{
+  position: absolute;
+  left: 260px;
+  top: 1500px;
+  width: 350px;
+  height: 650px;
+}
+
+.clothing-2{
+  position: absolute;
+  left: 200px;
+  top: 2000px;
+  width: 400px;
+  height: 600px;
+}
+
+.clothing-3{
+  position: absolute;
+  right: 10px;
+  top: 1500px;
+  width: 400px;
+  height: 600px;
+}
+
+.clothing-4{
+  position: absolute;
+  right: 10px;
+  top: 2000px;
+  width: 350px;
+  height: 550px;
 }
 
 .gradient-container {
