@@ -244,6 +244,48 @@ iframe .color-palette{
     visibility: visible;
   }
 
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip3:hover .tooltiptext3 {
+      visibility: visible;
+    }
+  
+    .tooltip3 .tooltiptext3 {
+      visibility: hidden;
+      width: 300px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      border-radius: 6px;
+    
+      /* Position the tooltip text - see examples below! */
+      position: absolute;
+      z-index: 1;
+      bottom: 5%;
+      right: 25%;
+    }
+
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip4:hover .tooltiptext4 {
+      visibility: visible;
+    }
+  
+    .tooltip4 .tooltiptext4 {
+      visibility: hidden;
+      width: 300px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      border-radius: 6px;
+    
+      /* Position the tooltip text - see examples below! */
+      position: absolute;
+      z-index: 1;
+      bottom: 5%;
+      right: 25%;
+    }
+
   .rules{
     list-style-type: square;
   }

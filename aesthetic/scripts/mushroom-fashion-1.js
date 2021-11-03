@@ -19,7 +19,7 @@ var illo = new Zdog.Illustration({
 
 var mushroom = new Zdog.Anchor({
   addTo: illo,
-  translate: { y: 100 },
+  translate: { y: 90 },
   rotate: { x: TAU/4 },
 });
 
