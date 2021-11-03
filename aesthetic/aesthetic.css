@@ -132,11 +132,6 @@ iframe .color-palette{
     text-decoration: underline;
   }
 
-.arc-rules{
-    list-style-type: square;
-    line-height:2;
-}
-
   #3d iframe {
     display: block;
     margin: 0 auto;
@@ -207,5 +202,8 @@ iframe .color-palette{
     visibility: visible;
   }
 
+  .rules{
+    list-style-type: square;
+  }
 
 
