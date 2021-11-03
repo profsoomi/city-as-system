@@ -1,0 +1,68 @@
+html, body{
+    background: rgba(255, 169, 190, 0.1);
+    margin: 0px;
+}
+
+.module {
+    cursor: url('path-to-image.png'), auto;	
+  }
+  
+  button {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+  }
+  
+  /* .imageContainer {
+    display: flex;
+  } */
+  
+  .dogContainer{
+    display:flex;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    left: 0px;
+    margin: 10px;
+  }
+  
+  #barb {
+    margin-left: 20px;
+    opacity: 0%;
+  }
+  
+  
+  #cake{
+    position: absolute;
+    right: 0px;
+    height: 40vh;
+    margin: 10px;
+  }
+  
+  
+  #logo{
+      position: absolute;
+      left: 41%;
+      top: 35%;
+      width: 32vh;
+  }
+  
+  #type{
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    margin: 10px;
+    height: 30vh;
+  }
+  
+  #history{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    height: 30vh;
+  }
