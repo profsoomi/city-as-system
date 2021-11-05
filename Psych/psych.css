@@ -66,3 +66,32 @@ html, body{
     margin: 10px;
     height: 30vh;
   }
+
+  #popup{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    width: 300px;
+    height: 250px;
+    display:none;
+    
+  }
+
+  #popupContent{
+    background-color:lightgreen;
+    overflow:auto;
+    width:300px;
+    height:250px;
+  }
+
+  #navBar{
+    background-color: lightpink;
+  }
+
+  #closeButton{
+    background-color: hotpink;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    font-size: 20px;
+  }

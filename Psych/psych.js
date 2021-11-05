@@ -243,5 +243,37 @@ document.getElementById("logo").onclick = function() {
   }
 }
 
+var dog=document.getElementById("dog");
+var cake=document.getElementById("cake");
+var popup=document.getElementById("popup");
+var popupContent=document.getElementById("popupContent");
+var closeButton=document.getElementById("closeButton");
+
+
+dog.addEventListener("click", showPopUp);
+cake.addEventListener("click", showPopUp);
+closeButton.addEventListener("click",closePopUp);
+
+dog.myParam="Society functions because the plants are in control. All living beings live joyously because the plants allow them to. They are happy to serve the mushrooms because they are right in their desires and understand peace in ways other living beings cannot. Those being dosed are allowed a life of laying, lounging, resting, living, laughing, and creating because the mushrooms have made it so. Jov is one of the very first hybrids to be born. Mushrooms were forced to dose beings to make them happy, docile, calm and peaceful in a time when our society was violent and chaotic. In this state, each being reacts differently. When fairies are dosed they meet with their predators and induce-dose them, turning them into joyful creatures. Every species and being, in one way or another, comes in contact with each other, which results in mass dosing. There are never any side effects of Jov. Jov helps one realise their deepest desires and create meaningful and beautiful art and have harmonious interactions with other living beings.Prod works as a stimulant. It engages one's brain cells and makes them productive and energetic. Creativity and joy can be honed into a project to create tangible products. Mir makes one see what the naked eye cannot. This allows living beings to share a mind with the mushrooms controlling them for a several hour period, to see what needs to be helped and ";
+
+cake.myParam= "Recipes: <p> Our favourite recipes with our favourite fungi! These recipes have been crafted in a way to maximise your experience. </p> <p> Jov cupcakes -  </p> 1tsp of minced Jov <p> 1 tbsp of Cina bark </p> <p>1 cup Moss wheat </p>";
+
+function showPopUp(evt){
+popupContent.innerHTML=evt.currentTarget.myParam;
+
+console.log(popup.style.display);
+
+if(popup.style.display=="none"){
+  popup.style.display="block";
+
+// }else{
+//   popup.style.display="none";
+}
+}
+
+function closePopUp(){
+  popup.style.display="none";
+}
+
 //inspired by Julian Garnier's "Fireworks" on codepen using anime.js 
 //https://codepen.io/juliangarnier/pen/gmOwJX
