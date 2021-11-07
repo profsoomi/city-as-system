@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Events</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <svg width="30px" id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 526.23 551.68"><defs><style>.cls-1,.cls-2{fill:#eaeea4;}.cls-1{stroke:#eaeea4;stroke-linecap:round;stroke-linejoin:round;stroke-width:18px;}</style></defs><path class="cls-1" d="M921.25,722.4c-2-98.71-11.9-279.58-11.9-279.58s-67.13,83.43-86.44,109l-.18-.11c-44.15-26-116.15-35.84-155.22-35.84s-110.89,9.84-155,36l-.15-.2c-19.49-25.82-86.67-108.84-86.67-108.84s-9.85,180.87-11.9,279.58c-.43,20.57-.52,37.57-.12,48.63,2.37,64.12,62,205.47,253.86,205.47S919,835.15,921.36,771C921.77,760,921.68,743,921.25,722.4Zm-195.4,61c18.23,70.52,33.81,129.26-58.34,129.26s-76.57-58.74-58.34-129.26c-41.28,11.64-96.23-13.93-96.26-78.13,0-95.62,99.48-113.22,154.6-113.22s154.65,17.6,154.6,113.22C822.08,769.43,767.13,795,725.85,783.36Z" transform="translate(-404.39 -433.82)"/><polygon class="cls-2" points="263.12 288.48 219.82 288.48 241.47 250.98 263.12 213.48 284.77 250.98 306.42 288.48 263.12 288.48"/></svg>
+                    <a href ="environment.html">The Clarence Environment Department</a></li>
+                <li><a href="">Map</a></li>
+                <li><a href="islands.html">Islands</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Events</h1>
+            <p>Clarence holds a variety of different events around the islands, there's always something to do and be engaged in. Any and all events that could possibly imagined are open to public participation and can be found listed here.</p>
+            <div id="btnContainer">
+                <button class="btn active" onclick="filterSelection('all')">All</button>
+                <button class="btn" onclick="filterSelection('palace')"> Palace Island</button>
+                <button class="btn" onclick="filterSelection('mushroom')"> Mushroom Gardens</button>
+                <button class="btn" onclick="filterSelection('sand')"> The Sand Bars</button>
+                <button class="btn" onclick="filterSelection('farm')"> The Farm</button>
+                <button class="btn" onclick="filterSelection('trash')"> Trash Island</button>
+                <button class="btn" onclick="filterSelection('grey')"> Grey Island</button>
+            </div>
+        </section>
+        <section class="container">
+            <article class="filter palace">
+                <a href=""><h2>Strolling In the Royal Gardens</h2></a>
+                <p>A monthly event in the royal gardens at Palace Island. Take this chance to view the beautiful scenery and experience the fresh air where our leaders take residence.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter trash">
+                <a href=""><h2>Discovering Wildlife</h2></a>
+                <p>What kinds of things actually live on our Trash Island? Join the Wildlife Crew on their walk around the island and discover its special ecosystem!</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter sand">
+                <a href=""><h2>Sand Castle Competition</h2></a>
+                <p>Join the competition to build the best and most creative sand structure for a chance to win 5 mushrooms, or to just have some fun! Hosted and judged by the mermaids, open to all ages and species.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter mushroom">
+                <a href=""><h2>Mushroom Appreciation Festival</h2></a>
+                <p>The Monarchy is giving an exclusive opportunity to visit Mushroom Island, their private garden. Select few are able to come and appreciate the mushrooms that populate the gardens.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter trash">
+                <a href=""><h2>Inside Trash Processing</h2></a>
+                <p>Ever interested in what actually happens to all our trash? Take a tour of the state of the art processing plant on the island and see how we keep Clarence so clean.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter farm">
+                <a href=""><h2>Pumpkin Picking</h2></a>
+                <p>It's finally pumpkin season at The Farm! Come take a look at the hard work of the farmers and pick a pumpkin to take home!</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter sand">
+                <a href=""><h2>Surfing Fun</h2></a>
+                <p>The Sand Bars are known for their beaches, perfect for watersports! Bring your own board, or rent one on the island. Meet other surfing enthusiasts and have fun out in the water!</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter sand">
+                <a href=""><h2>Intermediate Underwater Basket Weaving</h2></a>
+                <p>Basket weaving, but underwater. Experience in basket weaving and being underwater required.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter sand">
+                <a href=""><h2>Coral Reefs and Photography</h2></a>
+                <p>The beautiful coral reefs around The Sand Bars are a sight to behold, one of the 4 wonders of the world. Bring an underwater compatible camera and yourself to participate.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter grey">
+                <a href=""><h2>Lights Festival on Main St.</h2></a>
+                <p>In collaboration with the Energy Department, Grey Island has put up a beautiful and vibrant lights display on Main Street. Come experience the wonders of our sustainable energy system.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter grey">
+                <a href=""><h2>Good Eats in the Slate District: Amore Pizza</h2></a>
+                <p>Good Eats is a weekly tour of different food establishments around the Grey Island. This week in the Slate Distict we visit Amore Pizza, run by Mister Amore, pizza masterchef. Join us and experience authentic Pizza cuisine in an authentic Pizza restaurant.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter grey">
+                <a href=""><h2>The Birthday Celebration</h2></a>
+                <p>Time to celebrate everyone's birthday! Bring cakes, deserts, and presents for all!</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter farm">
+                <a href=""><h2>I Am Farmer</h2></a>
+                <p>Experience a day in the life of a farmer or farmhand, helping out at The Farm. Meet the people who work to produce the food all people in the city rely on and learn about the work that goes into it all.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter palace">
+                <a href=""><h2>Touring Clarence Monument</h2></a>
+                <p>The monumental statue of our sovereign Clarence stands tall at the head of Palace Island and carries the long history of our city and world. Visit it in person to experience the magnitude and learn more.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter palace">
+                <a href=""><h2>Clarence City Fashion Week: Palace Island</h2></a>
+                <p>A new season of fashion has arrived. A collaborative effort by the Aesthetics Department and Energy Department, view the newest styles and codes.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter grey">
+                <a href=""><h2>Clarence City Fashion Week: Grey Island</h2></a>
+                <p>A new season of fashion has arrived. A collaborative effort by the Aesthetics Department and Energy Department, view the newest styles and codes.</p>
+                <a href=""> Register Here</a>
+            </article>
+            <article class="filter grey">
+                <a href=""><h2>Q-Sweeper Tournament</h2></a>
+                <p>Q-Sweeper is a game by Studio Degen, the leading game studio in Clarence. Play the acclaimed game in the Quantum Arcade series to compete against other folks in a tournament at the D12 building.</p>
+                <a href=""> Register Here</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h2>The Clarence Environment Department</h2>
+        <div id="foot-list">
+            <ul>
+                <li><h3><a href="./islands.html">Islands</a></h3></li>
+                <li><a href="">Palace Island</a></li>
+                <li><a href="">Mushroom Island</a></li>
+                <li><a href="">The Sand Bars</a></li>
+                <li><a href="">The Farm</a></li>
+                <li><a href="">Trash Island</a></li>
+                <li><a href="">Grey Island</a></li>
+            </ul>
+            <ul>
+                <li><h3><a href="./about.html">About Us</a></h3></li>
+                <li><a href="./about.html#history">History</a></li>
+                <li><a href="./about.html#faq">FAQ</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script>
+    function filterSelection(c){
+        let x, i;
+        x = document.getElementsByClassName("filter");
+        if(c=="all") c="";
+
+        for(i=0;i<x.length;i++){
+            removeClass(x[i],"show");
+            if(x[i].className.indexOf(c)>-1) addClass(x[i], "show");
+        }
+    }
+
+    function addClass(element, name){
+        let i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for(i=0; i<arr2.length; i++){
+            if(arr1.indexOf(arr2[i]) == -1){
+                element.className += " " + arr2[i];
+            }
+        }
+    }
+
+    function removeClass(element, name){
+        let i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+    let btnContainer = document.getElementById("btnContainer");
+    let btns = btnContainer.getElementsByClassName("btn");
+    for(let i =0; i<btns.length; i++){
+        btns[i].addEventListener("click", function(){
+            let current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+
+</html>
