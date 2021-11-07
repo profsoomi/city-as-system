@@ -1,3 +1,70 @@
 body{
     margin:0px;
 }
+#clarence-img{    
+    background-image: url(/imgs/mosshroom.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+#clarence-img, #main-buttons{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+}
+.main-button{
+    width:15%;
+    max-width:200px;
+    position:absolute;
+    cursor: pointer;
+}
+.main-button a img{
+    width:100%;
+}
+a{
+    position:relative;
+    text-decoration: none;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+a p{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: lightgreen;
+    font-size:16px;
+}
+a:hover p{
+    color:white;
+    font-weight:900;
+}
+#lipid{
+
+}
+#env{
+    top:60%;
+    left:15%;
+
+}
+#aes{
+    top:42%;
+    right:22%;
+}
+#psy{
+    left:37%;
+    top:25%;
+}
+
+#mon{
+    top:5%;
+    right:15%;
+    overflow:hidden;
+}
+#mon a img{
+    width:150%;
+}
+#mon a p{
+    margin-top:-25%;
+}
