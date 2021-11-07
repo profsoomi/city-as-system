@@ -44,7 +44,7 @@ nav ul li a:hover, nav ul li a:active{
 
 main{
     position: relative;
-    min-height: 40vh;
+    min-height: 45vh;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px 200px 20px;
@@ -60,8 +60,15 @@ main a:hover, main a:active{
 h1{
     font-size: 2rem;
 }
+figure{
+    margin: 0;
+    padding: 0;
+}
 img{
     max-width: 80%;
+}
+#weather_topbar{
+    display: flex;
 }
 
 .filter{
@@ -91,14 +98,15 @@ footer{
     margin: 0;
 }
 footer h2{
-    margin-left: 40px;
-    padding-top: 40px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 #foot-list{
     display: grid;
-    grid: 1fr / 1fr 1fr 1fr;
-    margin-left: 40px;
-    padding-bottom: 20px;
+    grid: 1fr / 0.4fr 0.4fr 0.4fr 1fr;
+    width: 1000px;
+    margin: 0 auto;
 }
 footer ul{
     padding: 0;
