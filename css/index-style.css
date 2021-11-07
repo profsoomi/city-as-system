@@ -2,7 +2,7 @@ body{
     margin:0px;
 }
 #clarence-img{    
-    background-image: url(imgs/mosshroom.jpeg);
+    background-image: url(../imgs/mosshroom.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
