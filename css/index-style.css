@@ -40,8 +40,15 @@ a:hover p{
     color:white;
     font-weight:900;
 }
-#lipid{
-
+#lipids{
+    top:10%;
+    left:10%;
+    width: 20%;
+    max-width: 250px;
+}
+#lipids img{
+    background-color:#2C4531;
+    border-radius:50%;
 }
 #env{
     top:60%;
