@@ -193,7 +193,7 @@ iframe .color-palette{
 .clothing-1{
   position: absolute;
   left: 0px;
-  top: 1800px;
+  top: 2350px;
   width: 350px;
   height: 650px;
   opacity: 0;
@@ -202,7 +202,7 @@ iframe .color-palette{
 .clothing-2{
   position: absolute;
   left: 0px;
-  top: 2050px;
+  top: 2700px;
   width: 400px;
   height: 600px;
   opacity: 0;
@@ -211,7 +211,7 @@ iframe .color-palette{
 .clothing-3{
   position: absolute;
   right: -100px;
-  top: 1800px;
+  top: 2400px;
   width: 400px;
   height: 600px;
   opacity: 0;
@@ -220,7 +220,7 @@ iframe .color-palette{
 .clothing-4{
   position: absolute;
   right: -100px;
-  top: 2050px;
+  top: 2700px;
   width: 350px;
   height: 550px;
   opacity: 0;
