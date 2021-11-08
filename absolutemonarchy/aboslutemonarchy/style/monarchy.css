@@ -1,7 +1,6 @@
 body {
     width: 90%;
     margin: 0 auto;
-    background-color: #FFEEEC
 }
 
 header {
@@ -10,6 +9,17 @@ header {
     border-bottom: 2px solid #b5b5b5;
 }
 
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -100;    
+    background-size: cover;
+}
 
 .logo-row {
     width: 250px;
@@ -44,13 +54,28 @@ header {
 }
 
 #titlebox{
-    width: 150px;
+    width: 175px;
     height: 50px;
     border: 3px solid;
     border-color: goldenrod;
-    padding-top: 25px;
-    margin-left: 35%;
-    font-family: 'Dancing Script', cursive;
+    padding-top: 2%;
+    margin-left: 30%;
+    margin-top: -15%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+}
+
+#titlebox2{
+    width: 175px;
+    height: 50px;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding-top: 5%;
+    margin-right: 30%;
+    margin-top: -35%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
     text-align: center;
 }
 
@@ -85,14 +110,19 @@ header {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .menu-bar a {
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 5%;
     transition: all 0.3s ease;
     color: white;
     font-size: 25px;
   }
+
+  .menu {
+    color: #FFEEEC;
+  }
+
