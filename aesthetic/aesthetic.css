@@ -153,6 +153,22 @@ iframe .color-palette{
     margin-top: -10%;
   }
 
+  .architecture-section{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77955473-bea2-4ce3-a179-cfcdb603f80f/d7za34n-a1fce189-ee67-44ed-acfa-5058b894d4ee.jpg/v1/fill/w_1024,h_569,q_75,strp/furnace_by_projectosxar_d7za34n-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTY5IiwicGF0aCI6IlwvZlwvNzc5NTU0NzMtYmVhMi00Y2UzLWExNzktY2ZjZGI2MDNmODBmXC9kN3phMzRuLWExZmNlMTg5LWVlNjctNDRlZC1hY2ZhLTUwNThiODk0ZDRlZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SnuTvLotwV3hX9hTBylaiLE8OVgXvpETLYP0A7b03F0'); /* images need to be URL */
+    background-size: 100%;
+    margin-bottom: 40px;
+  }
+
+  .architecture-example{
+    margin-left: 30%;
+    margin-bottom: 40px;
+  }
+
+  .architecture-instructions{
+    color: white;
+
+  }
+
   .content h2{
     font-size: larger;
     font-weight: lighter;
