@@ -372,6 +372,7 @@ iframe .color-palette{
 #reg-title {
   margin-top: 0;
   font-size: large;
+  font-weight: bold;
 }
 
 .map_holder p{
