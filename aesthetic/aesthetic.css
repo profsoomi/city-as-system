@@ -13,6 +13,7 @@ h1{
 
 li{
     list-style: none;
+    font-size: 18px;
 }
 
 p{
@@ -120,9 +121,25 @@ iframe .color-palette{
 
   .design-system-container{
     padding-left: 20%;
+    padding-bottom: 20px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77955473-bea2-4ce3-a179-cfcdb603f80f/d9l5qqo-3a1272b0-05e6-487e-b037-3ff16b4c61eb.jpg/v1/fill/w_1024,h_572,q_75,strp/structures_by_projectosxar_d9l5qqo-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTcyIiwicGF0aCI6IlwvZlwvNzc5NTU0NzMtYmVhMi00Y2UzLWExNzktY2ZjZGI2MDNmODBmXC9kOWw1cXFvLTNhMTI3MmIwLTA1ZTYtNDg3ZS1iMDM3LTNmZjE2YjRjNjFlYi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.njudazsTfK0QR-aWBDwEj4vqa_nj_qrIBfJn4rsgrSs'); /* images need to be URL */
+    background-size: 100%;
+  }
+
+  .design-system{
+    width: 100%;
+    height: 100%;
+    margin-left: -40px;
+    margin-top: -30px;
   }
 
   .mushroom-fashion-container{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77955473-bea2-4ce3-a179-cfcdb603f80f/d9194b5-f92fc5d5-e246-4243-9046-9861a9560136.jpg/v1/fill/w_1024,h_683,q_75,strp/the_second_nest_by_projectosxar_d9194b5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjgzIiwicGF0aCI6IlwvZlwvNzc5NTU0NzMtYmVhMi00Y2UzLWExNzktY2ZjZGI2MDNmODBmXC9kOTE5NGI1LWY5MmZjNWQ1LWUyNDYtNDI0My05MDQ2LTk4NjFhOTU2MDEzNi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KOZPdgY3AEZWeVujbxPnwfPSlYaaxDZiJl5AeZwI3t4'); /* images need to be URL */
+    background-size: 100%;
+    margin-bottom: -80px;
+  }
+
+  .mushroom-hat-container{
     margin-left: 45%;
   }
 
@@ -133,7 +150,7 @@ iframe .color-palette{
 
   .mushroom-fashion-2{
     cursor: move;
-    margin-top: -20%;
+    margin-top: -10%;
   }
 
   .content h2{
@@ -169,7 +186,7 @@ iframe .color-palette{
 .clothing-2{
   position: absolute;
   left: 0px;
-  top: 2100px;
+  top: 2050px;
   width: 400px;
   height: 600px;
   opacity: 0;
@@ -187,7 +204,7 @@ iframe .color-palette{
 .clothing-4{
   position: absolute;
   right: -100px;
-  top: 2100px;
+  top: 2050px;
   width: 350px;
   height: 550px;
   opacity: 0;
@@ -254,27 +271,6 @@ iframe .color-palette{
     }
   
     .tooltip3 .tooltiptext3 {
-      visibility: hidden;
-      width: 300px;
-      background-color: black;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-      border-radius: 6px;
-    
-      /* Position the tooltip text - see examples below! */
-      position: absolute;
-      z-index: 1;
-      bottom: 5%;
-      right: 25%;
-    }
-
-    /* Show the tooltip text when you mouse over the tooltip container */
-    .tooltip4:hover .tooltiptext4 {
-      visibility: visible;
-    }
-  
-    .tooltip4 .tooltiptext4 {
       visibility: hidden;
       width: 300px;
       background-color: black;
