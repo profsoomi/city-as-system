@@ -307,7 +307,8 @@ iframe .color-palette{
   }
 
   .map_holder {
-    margin-left: 25%;
+    margin-left: 20%;
+    margin-right: 3%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -362,7 +363,10 @@ iframe .color-palette{
 #island6_rules { 
   grid-area: 2 / 6 / 3 / 7; 
 } 
-    
+
+.map_holder img{
+  width:93%;
+}
     
 
 
