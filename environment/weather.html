@@ -26,21 +26,48 @@
             <article id="weather_topbar">
                 <figure id="palace_weather">
                     <img src="./imgs/env_weather_A- Palace Island.jpg">
+                    <figcaption>Palace Island</figcaption>
                 </figure>
                 <figure id="mushroom_weather">
-                    <img src="./imgs/env_weather_A- Palace Island.jpg">
+                    <img src="./imgs/env_weather_B- Mushroom Island.jpg">
+                    <figcaption>Mushroom Island</figcaption>
                 </figure>
                 <figure id="sand_weather">
-                    <img src="./imgs/env_weather_A- Palace Island.jpg">
+                    <img src="./imgs/env_weather_C- The Sand Bars.jpg">
+                    <figcaption>The Sand Bars</figcaption>
                 </figure>
                 <figure id="farm_weather">
                     <img src="./imgs/env_weather_D- The Farm.jpg">
+                    <figcaption>The Farm</figcaption>
                 </figure>
                 <figure id="trash_weather">
                     <img src="./imgs/env_weather_E- Trash Island.jpg">
+                    <figcaption>Trash Island</figcaption>
                 </figure>
                 <figure id="grey_weather">
-                    <img src="./imgs/env_weather_A- Palace Island.jpg">
+                    <img src="./imgs/env_weather_F- Grey Island.jpg">
+                    <figcaption>Grey Island</figcaption>
+                </figure>
+            </article>
+            <h2>10-Day Forecast</h2>
+            <article id="weather_week">
+                <figure id="palace_week">
+                    <img src="./imgs/palace_weather week.jpg">
+                </figure>
+                <figure id="mushroom_week">
+                    <img src="./imgs/mushroom_weather week.jpg">
+                </figure>
+                <figure id="sand_week">
+                    <img src="./imgs/sand_weather week.jpg">
+                </figure>
+                <figure id="farm_week">
+                    <img src="./imgs/farm_weather week.jpg">
+                </figure>
+                <figure id="trash_week">
+                    <img src="./imgs/trash_weather week.jpg">
+                </figure>
+                <figure id="grey_week">
+                    <img src="./imgs/grey_weather week.jpg">
                 </figure>
             </article>
         </section>
@@ -65,6 +92,7 @@
                 <li><h3>Services</h3></li>
                 <li><a href="">Map</a></li>
                 <li><a href="./weather.html">Weather</a></li>
+                <li><a href="./events.html">Events</a></li>
             </ul>
             <ul>
                 <li><h3><a href="./about.html">About Us</a></h3></li>
@@ -81,11 +109,105 @@
     const trashWeather = document.getElementById("trash_weather");
     const greyWeather = document.getElementById("grey_weather");
 
-    palaceWeather.addEventListener("click", showWeather);
+    const palaceWeek = document.getElementById("palace_week");
+    const mushroomWeek = document.getElementById("mushroom_week");
+    const sandWeek = document.getElementById("sand_week");
+    const farmWeek = document.getElementById("farm_week");
+    const trashWeek = document.getElementById("trash_week");
+    const greyWeek = document.getElementById("grey_week");
 
-    function showWeather(){
+    palaceWeather.addEventListener("click", function(){
+        palaceWeek.style.display="block";
+        mushroomWeek.style.display="none";
+        sandWeek.style.display="none";
+        farmWeek.style.display="none";
+        trashWeek.style.display="none";
+        greyWeek.style.display="none";
         
-    }
+        palaceWeather.style.background="#ffdd5d";
+        mushroomWeather.style.background="white";
+        sandWeather.style.background="white";
+        farmWeather.style.background="white";
+        trashWeather.style.background="white";
+        greyWeather.style.background="white";
+    });
+
+    mushroomWeather.addEventListener("click", function(){
+        mushroomWeek.style.display="block";
+        palaceWeek.style.display="none";
+        sandWeek.style.display="none";
+        farmWeek.style.display="none";
+        trashWeek.style.display="none";
+        greyWeek.style.display="none";
+        
+        mushroomWeather.style.background="#ffdd5d";
+        palaceWeather.style.background="white";
+        sandWeather.style.background="white";
+        farmWeather.style.background="white";
+        trashWeather.style.background="white";
+        greyWeather.style.background="white";
+    })
+    sandWeather.addEventListener("click", function(){
+        sandWeek.style.display="block";
+        palaceWeek.style.display="none";
+        mushroomWeek.style.display="none";
+        farmWeek.style.display="none";
+        trashWeek.style.display="none";
+        greyWeek.style.display="none";
+
+        sandWeather.style.background="#ffdd5d";
+        palaceWeather.style.background="white";
+        mushroomWeather.style.background="white";
+        farmWeather.style.background="white";
+        trashWeather.style.background="white";
+        greyWeather.style.background="white";
+    })
+    farmWeather.addEventListener("click", function(){
+        farmWeek.style.display="block";
+        palaceWeek.style.display="none";
+        mushroomWeek.style.display="none";
+        sandWeek.style.display="none";
+        trashWeek.style.display="none";
+        greyWeek.style.display="none";
+        
+        farmWeather.style.background="#ffdd5d";
+        palaceWeather.style.background="white";
+        mushroomWeather.style.background="white";
+        sandWeather.style.background="white";
+        trashWeather.style.background="white";
+        greyWeather.style.background="white";
+    })
+    trashWeather.addEventListener("click", function(){
+        trashWeek.style.display="block";
+        palaceWeek.style.display="none";
+        mushroomWeek.style.display="none";
+        sandWeek.style.display="none";
+        farmWeek.style.display="none";
+        greyWeek.style.display="none";
+        
+        trashWeather.style.background="#ffdd5d";
+        palaceWeather.style.background="white";
+        mushroomWeather.style.background="white";
+        sandWeather.style.background="white";
+        farmWeather.style.background="white";
+        greyWeather.style.background="white";
+    })
+    greyWeather.addEventListener("click", function(){
+        greyWeek.style.display="block";
+        palaceWeek.style.display="none";
+        mushroomWeek.style.display="none";
+        sandWeek.style.display="none";
+        farmWeek.style.display="none";
+        trashWeek.style.display="none";
+        
+        greyWeather.style.background="#ffdd5d";
+        palaceWeather.style.background="white";
+        mushroomWeather.style.background="white";
+        sandWeather.style.background="white";
+        farmWeather.style.background="white";
+        trashWeather.style.background="white";
+    })
+
 </script>
 
 </html>

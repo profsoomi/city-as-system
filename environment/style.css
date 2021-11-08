@@ -65,10 +65,23 @@ figure{
     padding: 0;
 }
 img{
-    max-width: 80%;
+    max-width: 100%;
 }
 #weather_topbar{
     display: flex;
+}
+#weather_topbar figure{
+    margin: 0 10px;
+}
+#palace_weather{
+    background: #ffdd5d;
+}
+#weather_week figure{
+    margin: 10px;
+    display: none;
+}
+#weather_week :first-child{
+    display: block;
 }
 
 .filter{
@@ -100,13 +113,14 @@ footer{
 footer h2{
     width: 1000px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 20px 20px 0px 20px;
 }
 #foot-list{
     display: grid;
     grid: 1fr / 0.4fr 0.4fr 0.4fr 1fr;
     width: 1000px;
     margin: 0 auto;
+    padding: 0px 20px;
 }
 footer ul{
     padding: 0;
