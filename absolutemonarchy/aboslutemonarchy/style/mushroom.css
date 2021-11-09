@@ -1,0 +1,186 @@
+body {
+    width: auto;
+    margin: 0 auto;
+    background-color: #2d343f;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+  font-family: 'Exo 2', sans-serif;
+  color: #FFEEEC;
+  margin: 1%;
+}
+
+h2{
+  text-align: center;
+  position: relative;
+  font-size: 45px;
+  font-family: 'Exo 2', sans-serif;
+  color: #FFEEEC;
+  margin: 5%;
+}
+
+h3{
+  text-align: center;
+  position: relative;
+  font-size: 45px;
+  font-family: 'Exo 2', sans-serif;
+  color: #FFEEEC;
+  margin: 10%;
+}
+
+.logo-row {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    position: relative;
+}
+
+
+.menu-bar{
+    position: fixed;
+    top: 50%;
+    margin-left: 1%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'Exo 2', sans-serif;
+    z-index: 100;
+}
+
+.menu-bar a {
+    display: block;
+    text-align: center;
+    padding: 5%;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+  }
+
+  .menu {
+    color: #FFEEEC;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .slideshow{
+    max-width: auto;
+    max-height: auto;
+    margin-right: auto;
+    margin-left: auto;  
+    position: blocks;
+    z-index: -50;
+  }
+
+  .slideshow2{
+    max-width: auto;
+    max-height: auto;
+    margin-right: auto;
+    margin-left: auto;  
+    position: relative;
+    z-index: -50;
+  }
+
+  .mySlides{
+    display: block;
+    border-style: none;
+  }
+
+  .mySlides2{
+    display: flexbox;
+    border-style: none;
+  }
+
+  .leftbutton{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #ffff;
+    background-color: #0000;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: red;
+    transform: translate(0%, -50%);
+    -ms-transform:translate(-0%,-50%) 
+  }
+
+  .rightbutton{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: red;
+    background-color: #0000;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform:translate(0%,-50%)
+  }
+
+  .leftbutton2{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #ffff;
+    background-color: #0000;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: red;
+    transform: translate(0%, -50%);
+    -ms-transform:translate(-0%,-50%) 
+  }
+
+  .rightbutton2{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: red;
+    background-color: #0000;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform:translate(0%,-50%)
+  }
+
+.trigger{
+  display: block;
+  position:absolute;
+  width: 100%;
+  height: 15%;
+}

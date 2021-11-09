@@ -3,10 +3,16 @@ body {
     margin: 0 auto;
 }
 
-header {
+/* header {
     margin-top: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #b5b5b5;
+} */
+
+#iframefix {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: -15%;
 }
 
 #bgVideo {
@@ -40,9 +46,9 @@ header {
     padding: 50px;
     margin-left: 22%;
     font-family: 'Dancing Script', cursive;
-    font-size: 25px;
+    font-size: 15px;
     background-color: #F0EAD5;
-    position: relative;
+    position: relativeo;
     /* text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -64,6 +70,7 @@ header {
     font-family: 'Exo 2', sans-serif;
     color: #FFEEEC;
     text-align: center;
+    z-index: 100;
 }
 
 #titlebox2{
@@ -72,23 +79,130 @@ header {
     border: 3px solid;
     border-color: goldenrod;
     padding-top: 5%;
-    margin-right: 30%;
+    margin-left: -5%;
     margin-top: -35%;
     font-family: 'Exo 2', sans-serif;
     color: #FFEEEC;
     text-align: center;
+    z-index: 100;
+}
+
+#titlebox3{
+    width: 175px;
+    height: 50px;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding-top: 2%;
+    margin-left: 30%;
+    margin-top: -15%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+    z-index: 100;
+}
+
+#titlebox5{
+    display: flexbox;
+    width: 175px;
+    height: 50px;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding-top: 2%;
+    margin-left: 33%;
+    margin-top: -15%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+    z-index: 100;
 }
 
 #leftframes{
     display: flexbox;
-    margin-top: 200px;
     margin-left: -75px;
 }
 
 #rightframes{
-    margin-left: 55%;
+    margin-left: 60%;
     display: flexbox;
+
 }
+
+#leftFrames2{
+    display: flexbox;
+    margin-left: -75px;
+    margin-top: -60%;
+}
+
+#infobox1{
+    width: 30%;
+    height: 10%;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding: 1%;
+    margin-left: 40%;
+    margin-top: -25%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+    visibility: hidden;
+}
+
+#infobox2{
+    width: 60%;
+    height: 30%;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding: 3%;
+    margin-left: -45%;
+    margin-top: -50%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+    visibility: hidden;
+}
+
+#infobox3{
+    width: 30%;
+    height: 10%;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding: 1%;
+    margin-left: 40%;
+    margin-top: -20%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+    visibility: hidden;
+}
+
+#infobox4{
+    width: 75%;
+    height: 30%;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding: 3%;
+    margin-left: -65%;
+    margin-top: -60%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+    visibility: hidden;
+}
+
+#infobox5{
+    width: 30%;
+    height: 10%;
+    border: 3px solid;
+    border-color: goldenrod;
+    padding: 1%;
+    margin-left: 35%;
+    margin-top: -20%;
+    font-family: 'Exo 2', sans-serif;
+    color: #FFEEEC;
+    text-align: center;
+    visibility: hidden;
+}
+
 
 #title{
     text-shadow: black;
