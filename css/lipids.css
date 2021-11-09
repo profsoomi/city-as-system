@@ -1,0 +1,326 @@
+
+
+@import url(//db.onlinewebfonts.com/c/4a24899e94d8236f671c1090cd9e068c?family=Canela);
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap');
+
+
+
+html {
+	background-color:#2C4531;
+	font-size: 14px;
+	/*font-family: arial, helvetica, sans-serif;*/
+	/*font-family: 'Poppins', sans-serif;*/
+	/*font-family: 'PT Serif', serif;*/
+	font-family: 'Canela', serif;
+	/*font-family: 'Noto Sans Mono', monospace;*/
+	box-sizing: border-box;
+	
+}
+
+body {
+	/*background-color: lightgray;*/
+	/*width: 75%;*/
+	/* max-width: 1200px;
+	min-width: 600px; */
+	margin: 0 auto;
+	
+}
+
+#three-divisions {
+	text-align: center;
+	align-items: center;
+	display: inline-block;
+	align-items: center;
+
+	min-height: 300px;
+
+}
+
+.info{
+	display: inline-block;
+	align-items: center;
+width: 20%;
+height: 200px;
+}
+
+#three-divisions img{
+	/*width:70%;*/
+	display: inline-block;
+	align-items: center;
+	position: relative;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 5px;
+	transition: 0.5s;
+	
+}
+
+#three-divisions img:hover {
+	width: 80%;
+	transition: 0.5s;
+	-webkit-filter: drop-shadow(7px 7px 7px #222);
+  	filter: drop-shadow(10px 10px 10px #222);
+}
+
+#three-divisions p {
+	color: #D2B876;
+	font-size: 1.2em;
+	font-weight: 100;
+	font-weight: lighter;
+	margin: 30px;
+	padding: 10px;
+	kerning: 1em;
+}
+
+/* Nav 2 Style  */
+#navigation{
+	background-color: #D2B876;
+	z-index: 1000;
+	position: fixed;
+    
+	width: 100%;
+	padding: 12px 0;
+	margin: 0;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	align-items: center;
+}
+#navigation li {
+	display: inline-block;
+	align-items: center;
+	margin-left: 2em;
+	margin-right: 2em;
+
+}
+
+#navigation a {
+	display: block;
+	padding: 14px;
+	font-weight: 400;
+	font-family: 'Canela', serif;
+
+	font-size: 18px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 400;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+#Top{
+	float: left;
+}
+
+#right-nav{
+	float: right;
+}
+
+#About-Dep h2{
+	margin: 0;
+	padding: 0;
+	padding-top: 5%;
+	padding-bottom: 1%;
+	text-align: center;
+	align-items: center;
+}
+#About-Dep h1{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 0;
+	text-align: center;
+	align-items: center;
+}
+
+#About-Dep p{
+
+	/*margin: 30px;*/
+	padding: 0;
+	text-align: center;
+	align-items: center;
+
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10px;
+	
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 5px;
+
+	color: #D2B876;
+	font-size: 1.1em;
+	font-weight: 100;
+	margin: 10px;
+}
+
+
+#About-Dep img{
+	/*width:70%;*/
+	display: inline-block;
+	align-items: center;
+
+	width: 50%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5px;
+	
+}
+
+
+
+
+#about-button a{
+	display: inline-block;
+	align-items: center;
+	font-family: 'Canela', serif;
+	font-size: 2em;
+	color: #D2B876;
+	font-weight: 100;
+	text-decoration: none;
+	text-align: center;
+	
+
+	width: 40%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5px;
+}
+
+main div{
+	/* background-color: white; */
+	/*min-height: 300px;*/
+	min-height: 40em;
+    /* width: 75%; */
+	margin: 30px;
+	padding: 10px;
+}
+
+main{
+	padding-top: 40px;
+}
+
+h1{
+	font-family: 'Canela', serif;
+	font-size: 4em;
+	color: #D2B876;
+	font-weight: 100;
+	font-weight: lighter;
+
+	margin: 0;
+	padding: 0;
+	padding-top: 7%;
+	padding-bottom: 2%;
+	text-align: center;
+	align-items: center;
+	transition: 1s;
+}
+
+ h1:hover {
+	font-size: 4.2em;
+	transition: 1s;
+	-webkit-filter: drop-shadow(3px 3px 3px #222);
+  	filter: drop-shadow(3px 3px 3px #222);
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #D2B876;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+
+	
+}
+
+h3{
+	font-family: 'Canela', serif;
+	font-size: 2.5em;
+	color: #D2B876;
+	font-weight: 100;
+}
+
+p{
+
+	margin: 0;
+	padding: 0;
+	padding-top: 7%;
+	padding-bottom: 2%;
+	text-align: center;
+	align-items: center;
+	
+
+	color: #D2B876;
+	font-size: 1.2em;
+	font-weight: 100;
+	font-weight: lighter;
+	margin: 30px;
+	padding: 10px;
+	kerning: 1em;
+}
+
+
+
+
+/* zdog stuff */
+
+.zdog-canvas {
+    /*   background-color: #ffffff; */
+      cursor: move;
+    }
+
+.overlay{
+    /*opacity: 0;*/
+	text-align: center;
+	color: #D2B876;
+	padding: 0px;
+	transition: 0.5s;
+}
+
+
+.container {
+	/*background-color: #FEF5ED;*/
+	/*height: 70px;*/
+	/*min-height: 19em;*/
+	min-height: 90%;
+	transition: 0.5s;
+	width:50%;
+	border: solid 1px #D2B876;
+	/*border-width: 3px;*/
+}
+
+.container:hover {
+    /*background-color: pink;*/
+	
+    }
+
+.container:hover .overlay {
+   opacity: 1;
+}
+
+svg {
+	
+	width: 50%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
