@@ -180,11 +180,6 @@ iframe .color-palette{
     margin: 0 auto;
     
 }
-  
-.hideme
-{
-    opacity:0;
-}
 
 .aesthetics-logo{
     cursor: move;
@@ -193,7 +188,7 @@ iframe .color-palette{
 .clothing-1{
   position: absolute;
   left: 0px;
-  top: 2350px;
+  top: 2450px;
   width: 350px;
   height: 650px;
   opacity: 0;
@@ -211,7 +206,7 @@ iframe .color-palette{
 .clothing-3{
   position: absolute;
   right: -100px;
-  top: 2400px;
+  top: 2450px;
   width: 400px;
   height: 600px;
   opacity: 0;
@@ -307,6 +302,7 @@ iframe .color-palette{
   }
 
   .map_holder {
+    margin-top: 5%;
     margin-left: 20%;
     margin-right: 3%;
     display: grid;
