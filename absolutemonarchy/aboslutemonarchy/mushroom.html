@@ -2,12 +2,94 @@
 <html>
 <head> 
     <title>Absolute Monarchy and Subjugation</title>
-    <link rel="stylesheet" type="text.css" href="css/monarchy.css">
-
+    <link rel="stylesheet" href="\aboslutemonarchy\style\mushroom.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');</style>  
+    <style>.mySlides {display:none;}</style>
 </head>
 <body> 
-    <img src="https://drive.google.com/file/d/1bWzSlf6RHsfw41J4ygLerikUwSQNjGAR/view?usp=sharing" alt="Busan Mushroom" width = "720" height ="640">
-    
+    <div class="row">
+        <div class= "menu-bar">
+            <a href="monarchy.html" class="menu">Home</a>
+            <a href="empty.html" class="menu">Palace</a>
+            <a href="mushroom.html" class="menu">Mushrooms</a>
+            <a href="empty.html" class="menu">Celebratory</a>
+        </div>
+      <div class="logo-row">
+        <img src = "\images\SealClarence.png">
+      </div>
+    </div>
+    <h2>Our Stable, Our Life, Our Soul</h2>
+    <h1>Celestial Mushroom</h1> 
+    <div class="images">
+          <img src ="\images\celestial_seed.png" alt = "celestial seed">
+    </div>
+      <h3>Inspection Report on Celestial Mushroom</h>
+      <div class="slidershow">
+          <img class="mySlides" src="\images\Report 2.1.jpg" style="width:100%">
+          <img class="mySlides" src="\images\Report 2.2.jpg" style="width:100%">
+        
+          <button class="leftbutton" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="rightbutton" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    <h1>Busan Mushroom</h1>
+    <div class="images">
+        <img src ="\images\Busan_Mushroom.png" alt = "Busan Mushroom">
+    </div>
+    <h3>Inspection Report on Busan Mushroom</h>
+      <div id = 'trigger'>Redacted</div>
+      <div class="slidershow2">
+          <img class="mySlides2" src="\images\Report 1.1.jpg" onmouseover="newImg(this)" onmouseoutstyle="this.src = '\images\Report 1.1.jpg'"style="width:100%">
+          <img class="mySlides2" src="\images\Report 1.2.jpg" onmouseover="newImg2(this)" onmouseoutstyle="this.src = '\images\Report 1.2.jpg'" ="width:100%">
+        
+          <button class="leftbutton2" onclick="plusDivs2(-1)">&#10094;</button>
+          <button class="rightbutton2" onclick="plusDivs2(1)">&#10095;</button>
+      </div>
+    </div>
 </body>
-<script src='js/monarchy.js'></script>
+<script>
+//WSS Javascript for turning pages
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+
+  var slideIndex2 = 1;
+  showDivs2(slideIndex2);
+
+  function plusDivs2(n) {
+    showDivs2(slideIndex += n);
+  }
+
+  function showDivs2(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides2");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+
+  function newImg(x){
+    x.src = 'images\ReportR1.jpg';
+  }
+
+  function newImg2(x){
+    x.src = 'images\ReportR2.jpg';
+  }
+</script>
 </html>
